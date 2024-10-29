@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>eventos DOM</title>
+    <style>
+        #area{
+            background: red;
+            color: white;
+            width: 200px;
+            height: 200px;
+            line-height: 200px;
+            text-align: center;
+
+        }
+    </style>
+</head>
+<body>  
+    <div id="area" onclick="clicar()" onmouseenter="entrar()" onmouseleave="saiu()">
+        interraja...
+    </div>
+    <input type="number" id="inp1">
+    <input type="number" id="inp2">
+    <button onclick="somar()"> SOMAR </button>
+    <div id="resultado"> </div>
+
+<script src="ex002.js"></script>
+</body>
+</html>
